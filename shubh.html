@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shubh.css">
+</head>
+<body>
+
+    <p id="text">Lorem ipsum dolor sit amet.</p>
+    <p class="box">shubham kumar bharati</p>
+    <div>kya likhe kuch samajh nhi aa rha he</div>
+    <h1>i am heading</h1>
+    <b class="box">soch rhe he ek bold text likh de</b>
+    <h1>hello</h1>
+
+    <div class="flex-container">
+        <div class="flex-item">card-1</div>
+        <div class="flex-item">card-2</div>
+        <div class="flex-item">card-3</div>
+    </div>
+    <button onclick="execute()">Do Column Wise</button>
+
+    <p id="hello">hello world</p>
+    <button id="changeText" onclick="changeText()">Replace name</button>
+
+
+    <div class="container">
+        <span id="hour">00</span>
+        <span>:</span>
+        <span id="minutes">00</span>
+        <span>:</span>
+        <span id="seconds">00</span>
+        <span id="session">AM</span>
+    </div>
+    
+
+    <!-- <span id="HH"></span>:
+    <span id="MM"></span>:
+    <span id="SS"></span> -->
+
+    <form action="">
+        <select name="" id="select">
+            <option value="2020-2021">2020-2021</option>
+            <option value="2021-2022">2021-2022</option>
+            <option value="2022-2023">2022-2023</option>
+        </select>
+    </form>
+    <p>the value of the option is selected is :<span id="value"></span>
+    </p>
+    <button id="click" onclick="valueSelect()">Check-Value</button>
+
+    <form action="#">
+        <label for="name">Name : </label>
+        <input id="name" type="text" placeholder="Enter your name" required><br><br>
+        <label for="email">Email :</label>
+        <input id="email" type="text" placeholder="Enter your email" required>
+        <span id="message1"> Domain should be "@prepbytes.com" only</span><br><br>
+        <label for="phone">Phone No:</label>
+        <input id="phone" type="number" placeholder="Enter the phone number"required>
+        <span id="message2"> Phone number should start with 91 and must be 10 digits only</span><br><br>
+        <label for="birthYear">Birth Year : </label>
+        <input id="birthYear" type="date" required>
+        <span id="message3"> Birth Year should be greater than 1995</span><br><br>
+        <button type="submit" onclick="check()">Submit</button>
+    </form>
+    <script src="shubh.js"></script>
+</body>
+</html>
